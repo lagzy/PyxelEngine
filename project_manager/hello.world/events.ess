@@ -1,0 +1,33 @@
+[
+    {
+        "conditions": [
+            {
+                "type": "EveryTickCondition",
+                "parameters": {}
+            }
+        ],
+        "actions": [
+            {
+                "type": "ChangeRotationAction",
+                "parameters": {
+                    "h": {
+                        "type": "float",
+                        "default": 0.0,
+                        "value": 2.0
+                    },
+                    "p": {
+                        "type": "float",
+                        "default": 0.0,
+                        "value": 0.0
+                    },
+                    "r": {
+                        "type": "float",
+                        "default": 0.0,
+                        "value": 0.0
+                    }
+                },
+                "game_object_uuid": "49d8d8b5-b4a7-4e6e-ad27-44e4fbb6926d"
+            }
+        ]
+    }
+]

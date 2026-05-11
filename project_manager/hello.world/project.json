@@ -1,0 +1,35 @@
+{
+    "name": "hello.world",
+    "version": "1.0",
+    "engine": "Pyxel3D",
+    "scene": [
+        {
+            "uuid": "49d8d8b5-b4a7-4e6e-ad27-44e4fbb6926d",
+            "id": "1cd7e78b-1a04-403e-b2cb-227ced0c676e",
+            "name": "Cube",
+            "components": {
+                "Transform": {
+                    "position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "MeshRendererComponent": {
+                    "model_path": "Primitive:Cube",
+                    "material_path": ""
+                }
+            }
+        }
+    ]
+}

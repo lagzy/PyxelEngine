@@ -1,0 +1,118 @@
+[
+    {
+        "conditions": [
+            {
+                "type": "KeyIsDownCondition",
+                "parameters": {
+                    "key": {
+                        "type": "str",
+                        "default": "w",
+                        "value": "w"
+                    }
+                }
+            }
+        ],
+        "actions": [
+            {
+                "type": "ChangeRotationAction",
+                "parameters": {
+                    "h": {
+                        "type": "float",
+                        "default": 0.0,
+                        "value": 2.0
+                    },
+                    "p": {
+                        "type": "float",
+                        "default": 0.0,
+                        "value": 0.0
+                    },
+                    "r": {
+                        "type": "float",
+                        "default": 0.0,
+                        "value": 0.0
+                    }
+                },
+                "game_object_uuid": "148a8548-97d7-4517-99a5-68ce7b28ad29"
+            },
+            {
+                "type": "ChangePositionAction",
+                "parameters": {
+                    "axis": {
+                        "type": "choice",
+                        "choices": [
+                            "X",
+                            "Y",
+                            "Z"
+                        ],
+                        "default": "X",
+                        "value": "X"
+                    },
+                    "value": {
+                        "type": "float",
+                        "default": 0.0,
+                        "value": 0.1
+                    }
+                },
+                "game_object_uuid": "148a8548-97d7-4517-99a5-68ce7b28ad29"
+            }
+        ]
+    },
+    {
+        "conditions": [
+            {
+                "type": "KeyIsDownCondition",
+                "parameters": {
+                    "key": {
+                        "type": "str",
+                        "default": "w",
+                        "value": "s"
+                    }
+                }
+            }
+        ],
+        "actions": [
+            {
+                "type": "ChangeRotationAction",
+                "parameters": {
+                    "h": {
+                        "type": "float",
+                        "default": 0.0,
+                        "value": -2.0
+                    },
+                    "p": {
+                        "type": "float",
+                        "default": 0.0,
+                        "value": 0.0
+                    },
+                    "r": {
+                        "type": "float",
+                        "default": 0.0,
+                        "value": 0.0
+                    }
+                },
+                "game_object_uuid": "148a8548-97d7-4517-99a5-68ce7b28ad29"
+            },
+            {
+                "type": "ChangePositionAction",
+                "parameters": {
+                    "axis": {
+                        "type": "choice",
+                        "choices": [
+                            "X",
+                            "Y",
+                            "Z"
+                        ],
+                        "default": "X",
+                        "value": "X"
+                    },
+                    "value": {
+                        "type": "float",
+                        "default": 0.0,
+                        "value": -0.1
+                    }
+                },
+                "game_object_uuid": "148a8548-97d7-4517-99a5-68ce7b28ad29"
+            }
+        ]
+    }
+]

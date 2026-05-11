@@ -1,0 +1,65 @@
+{
+    "name": "test",
+    "version": "1.0",
+    "engine": "Pyxel3D",
+    "scene": [
+        {
+            "uuid": "148a8548-97d7-4517-99a5-68ce7b28ad29",
+            "id": "244726cc-0f0e-4211-8542-08dea1725336",
+            "name": "Cube",
+            "components": {
+                "Transform": {
+                    "position": [
+                        1.7936818599700928,
+                        1.6233189105987549,
+                        -0.005384077318012714
+                    ],
+                    "rotation": [
+                        15.087884902954102,
+                        -0.18344822525978088,
+                        0.049456559121608734
+                    ],
+                    "scale": [
+                        6.309999942779541,
+                        4.179999828338623,
+                        1.0
+                    ]
+                },
+                "MeshRendererComponent": {
+                    "model_path": "Primitive:Cube",
+                    "material_path": ""
+                },
+                "RigidbodyComponent": {}
+            }
+        },
+        {
+            "uuid": "2c8ae270-d806-4090-8faf-9f3e2c421bc3",
+            "id": "b51349cd-044b-41fc-87b2-60a867208170",
+            "name": "Cube",
+            "components": {
+                "Transform": {
+                    "position": [
+                        -30.165685653686523,
+                        -73.44932556152344,
+                        -24.621368408203125
+                    ],
+                    "rotation": [
+                        41.62175369262695,
+                        45.360755920410156,
+                        -88.85722351074219
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "MeshRendererComponent": {
+                    "model_path": "Primitive:Cube",
+                    "material_path": ""
+                },
+                "RigidbodyComponent": {}
+            }
+        }
+    ]
+}
